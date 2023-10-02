@@ -209,7 +209,7 @@ input, select, textarea {
 
 	h3 {
 		font-size: 1.25rem;
-		margin: 0 0 1.5rem 0;
+		margin: 0 0 -2rem 0;
 	}
 
 	h4 {
@@ -2913,9 +2913,9 @@ input, select, textarea {
 
 		header > .date {
 			display: block;
-			font-size: 0.8rem;
-			height: 1;
-			margin: 0 0 1rem 0;
+			font-size: 0.7rem;
+			height: 0;
+			margin: -2rem 0 1rem 0;
 			position: relative;
 		}
 
@@ -3850,23 +3850,25 @@ input, select, textarea {
 				-webkit-flex-grow: 0;
 				-ms-flex-grow: 0;
 				flex-grow: 0;
+				align-items: center;
 			}
 
 			#main > .posts > * {
-				width: 50%;
+				width: 25%;
 			}
 
 			#main > .posts > * {
-				padding: 3rem;
-				width: 50%;
+				padding: 1.5rem;
+				width: 25%;
 			}
 
 			#main > .posts > article {
-				border-color: #eeeeee;
-				border-left-width: 2px;
+				border-color: #ff0000;
+				border-left-width: 0px;
 				border-style: solid;
-				border-top-width: 2px;
+				border-top-width: 0px;
 				text-align: center;
+				border-bottom-width: 0px;
 			}
 
 				#main > .posts > article > :last-child {
@@ -4620,7 +4622,7 @@ input, select, textarea {
 			right: 0;
 			text-align: right;
 			top: 0;
-			/* vertical-align: middle;*/
+			/*vertical-align: middle;*/
 			width: 7rem;
 		}
 
